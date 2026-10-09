@@ -80,3 +80,20 @@ ACT of the next bank (bank interleaving), pipelined host interface.
 * Not tested with a real vendor SDRAM model or on hardware.
 * Close-page only, BL4 only, no byte masking (DQM = 0), no host streaming.
 * Verilog not yet compiled by a real tool (see top).
+
+## GTKWave screenshots (Icarus Verilog run)
+**Initialization**
+![init](docs/gtkwave/gtk_init.png)
+
+**Write burst**
+![write](docs/gtkwave/gtk_write.png)
+
+**Read burst**
+![read](docs/gtkwave/gtk_read.png)
+
+**Auto refresh**
+![refresh](docs/gtkwave/gtk_refresh.png)
+
+## Synthesis (Yosys, Xilinx 7-series target)
+232 flip-flops, 160 LUTs, 14 CARRY4, 0 problems found (`synth/yosys_synth.ys`, log in `results/yosys_log.txt`).
+Post-route timing (Vivado) has not been run yet.

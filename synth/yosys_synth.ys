@@ -1,0 +1,4 @@
+read_verilog ../rtl/sdram_ctrl.v
+hierarchy -top sdram_ctrl
+synth_xilinx -top sdram_ctrl
+stat
