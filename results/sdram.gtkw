@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.126 (w)1999-2026 BSI
+[*] Thu Oct  8 23:01:36 2026
+[*]
+[dumpfile] "/home/ridhi/sdram_project/results/waves.vcd"
+[dumpfile_mtime] "Thu Oct  8 22:48:02 2026"
+[dumpfile_size] 4808857
+[savefile] "/home/ridhi/sdram_project/results/sdram.gtkw"
+[timestart] 0
+[size] 1920 961
+[pos] -27 -24
+*-25.022623 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_sdram_ctrl.
+[treeopen] tb_sdram_ctrl.mdl.
+[sst_width] 297
+[signals_width] 110
+[sst_expanded] 1
+[sst_vpaned_height] 283
+@28
+tb_sdram_ctrl.clk
+tb_sdram_ctrl.rst_n
+tb_sdram_ctrl.req
+tb_sdram_ctrl.wr
+tb_sdram_ctrl.ready
+tb_sdram_ctrl.done
+tb_sdram_ctrl.cs_n
+tb_sdram_ctrl.ras_n
+tb_sdram_ctrl.cas_n
+tb_sdram_ctrl.we_n
+tb_sdram_ctrl.ba[1:0]
+@22
+tb_sdram_ctrl.a[11:0]
+tb_sdram_ctrl.dq[15:0]
+tb_sdram_ctrl.dut.state[3:0]
+@29
+tb_sdram_ctrl.mdl.init_done
+[pattern_trace] 1
+[pattern_trace] 0

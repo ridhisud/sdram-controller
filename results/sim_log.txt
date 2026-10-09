@@ -1,0 +1,39 @@
+VCD info: dumpfile ../results/waves.vcd opened for output.
+== Phase 1: reset and init ==
+init finished after 218 cycles, model init_done=1
+== Phase 2: functional ==
+== Phase 3: randomized ==
+REF command at 15105000
+REF command at 30205000
+== Phase 4: stress (back to back, many refreshes) ==
+REF command at 45355000
+REF command at 60445000
+REF command at 75535000
+REF command at 90665000
+REF command at 105695000
+REF command at 120815000
+REF command at 135905000
+REF command at 150985000
+REF command at 166015000
+REF command at 181045000
+== Phase 5: corner cases ==
+== Phase 6: reset in the middle of operations ==
+recovered from reset during write, model init_done=1
+== Phase 7: performance ==
+REF command at 204655000
+REF command at 219745000
+REF command at 234775000
+---------------- RESULTS ----------------
+total transfers      : 200 writes, 200 reads
+total cycles         : 4623
+avg write latency    : 9 cycles
+avg read  latency    : 11 cycles
+data bus busy cycles : 1600
+bus utilization      : 34.6 %
+refreshes issued     : 3
+throughput           : 346 words/1000 cycles
+checks passed        : 1138
+checks failed        : 0
+model protocol errors: 0
+*** TEST PASSED ***
+tb_sdram_ctrl.v:246: $finish called at 238446000 (1ps)
